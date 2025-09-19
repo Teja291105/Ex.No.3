@@ -2,13 +2,17 @@
 
 ### DATE:19/09/25                                                                        
 ### REGISTER NUMBER : 212223060285
-Aim:
-To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
+## Aim:
+To write the prompts for these following prompt types and evaluate that using any one method 
+1. Straightforward Prompts,
+2.Tabular Format Prompting
+3.Preceding Question Prompting and
+4.Missing Word Prompting
 
-Prompt Engineering Techniques for Chatbots
+# Prompt Engineering Techniques for Chatbots
 Prompt Engineering is the process of crafting effective instructions to guide an AI system toward producing accurate, helpful, and context-aware responses.
 
-A well-crafted prompt can help a chatbot:
+# A well-crafted prompt can help a chatbot:
 
 Provide relevant answers to user queries.
 Maintain the desired tone (formal, friendly, empathetic).
@@ -16,11 +20,11 @@ Handle different types of customer issues efficiently.
 Avoid misunderstandings by asking clarifying questions.
 Different prompting methods can be applied depending on the complexity of the query and the detail required. image
 
-Types of Prompt Engineering
-1. Straightforward Prompts
+# Types of Prompt Engineering
+# 1. Straightforward Prompts
 Definition: Direct and simple instructions given to the AI without extra context. Best for deterministic, repetitive tasks where the output format is fixed.
 
-Key Features:
+# Key Features:
 
 Clear and direct phrasing.
 Minimal ambiguity.
@@ -40,10 +44,10 @@ Customer: "What’s the status of order #1456?"
 Chatbot: "Your order is currently being processed and will be delivered by September 15, 2025."
 Advantages: Fast and reliable for structured queries. Limitations: Lacks flexibility, may fail for vague queries.
 
-2. Tabular Format Prompting
+# 2. Tabular Format Prompting
 Definition: Organizes information into a structured table for consistent responses.
 
-Key Features:
+# Key Features:
 
 Easy mapping between Issue → Solution → Tone.
 Ensures consistency.
@@ -65,10 +69,10 @@ Customer: "My package hasn’t arrived yet."
 Chatbot: "I understand your concern. Your order is still in transit and is expected to arrive by September 14, 2025. Tracking number: TR123456."
 Advantages: Easy scalability & consistency. Limitations: May feel robotic if overused.
 
-3. Missing Word Prompting (Cloze Prompting)
+# 3. Missing Word Prompting (Cloze Prompting)
 Definition: AI fills in blanks in a template, ensuring structured responses.
 
-Key Features:
+# Key Features:
 
 Template-driven replies.
 Guarantees inclusion of required fields (name, ID, date).
@@ -88,10 +92,10 @@ Customer: "Hi, I’m Arjun. My order 5678 hasn’t been delivered yet."
 Chatbot: "Hello Arjun, your order 5678 is currently delayed in transit. Expected delivery: September 16, 2025."
 Advantages: Highly structured & accurate. Limitations: Rigid, may not handle free-flow conversations well.
 
-4. Preceding Question Prompting
+# 4. Preceding Question Prompting
 Definition: The AI first asks clarifying questions when the query lacks details.
 
-Key Features:
+# Key Features:
 
 Adds a confirmation step.
 Improves accuracy & trust.
@@ -110,10 +114,10 @@ Customer: "I need a refund."
 Chatbot: "I can help with that! Could you please share your order number so I can check the refund details?"
 Advantages: Prevents errors, builds trust. Limitations: Adds extra steps (slightly longer conversation).
 
-5. Few-Shot Prompting
+# 5. Few-Shot Prompting
 Definition: AI is provided with a few examples (input → output pairs) to learn a style or reasoning pattern.
 
-Key Features:
+# Key Features:
 
 Learns through examples.
 Handles varied queries consistently.
@@ -146,7 +150,7 @@ Use structured formats (tables, templates) where consistency is needed.
 Apply preceding questions for vague or incomplete queries.
 Provide examples (few-shot) to teach style/pattern.
 Always test prompts with edge cases (e.g., missing data, typos).
-Result
+# Result
 By applying Straightforward, Tabular, Missing Word, Preceding Question, and Few-Shot Prompting, customer service chatbots can:
 
 Deliver accurate answers.
